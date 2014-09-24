@@ -82,6 +82,8 @@ public class MainActivity extends Activity implements SubmitListener {
         mTextViewTest=(TextView)findViewById(R.id.testview);
     }
 
+
+
     private List<String> creatData(){
         List<String> s=new ArrayList<String>();
         s.add("What's your username?");
