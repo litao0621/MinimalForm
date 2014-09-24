@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2dcb89"
+    tools:context=".MainActivity">
+
+    <com.litao.android.lib.MinimalFormLayout
+        android:id="@+id/form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#19724d"
+            android:tag="title"
+            android:textSize="18sp"
+            />
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:singleLine="true"
+            android:padding="10dp"
+            android:background="#28b67b"/>
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title"
+            android:layout_above="@+id/progress"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/next"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:indeterminateOnly="false"
+            android:layout_below="@+id/input"
+            android:max="100"
+            android:progressDrawable="@drawable/progressbar_shape" >
+        </ProgressBar>
+        <TextView
+            android:id="@+id/validator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress"
+            android:textColor="#19724d"
+            android:tag="validator"
+            />
+        <TextView
+            android:id="@+id/page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progress"
+            android:layout_alignParentRight="true"
+            android:textColor="#19724d"
+            android:tag="page"
+            />
+    </com.litao.android.lib.MinimalFormLayout>
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/testview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        />
+
+
+<LinearLayout
+    android:id="@+id/bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:layout_alignParentBottom="true">
+    <Button
+        android:id="@+id/previousBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="previous"/>
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="reset"/>
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="next"/>
+</LinearLayout>
+
+</RelativeLayout>
