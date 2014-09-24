@@ -27,6 +27,11 @@ Simplistic, single input view form
 * Add the drawable for the progress bar [like this][3]
 * Add tag to a different TextView (title,validator,page)
 
+and copy this into your `libs` directory.
+-   [`NineOldAndroid-2.4.0`](https://github.com/downloads/JakeWharton/NineOldAndroids/nineoldandroids-2.4.0.jar)
+
+-   [`MinimalForm-1.0`](https://github.com/sd6352051/MinimalForm/blob/master/releases/minimalform-1.0.jar?raw=true)
+
 # License
 Copyright 2014 litao.
 
