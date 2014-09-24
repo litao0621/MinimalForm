@@ -6,6 +6,7 @@ Simplistic, single input view form
 # ScreenShot
 
 ![Image][1]
+[Sample apk][4]
 
 # Usage
 
@@ -56,3 +57,4 @@ limitations under the License.
 [1]: https://raw.githubusercontent.com/sd6352051/MinimalForm/master/screenshot/form.gif
 [2]: https://github.com/sd6352051/MinimalForm/blob/master/app/src/main/res/layout/activity_main.xml#L8-L67
 [3]: https://github.com/sd6352051/MinimalForm/blob/master/app/src/main/res/drawable/progressbar_shape.xml
+[4]: https://github.com/sd6352051/MinimalForm/blob/master/releases/sample.apk?raw=true
