@@ -2,7 +2,9 @@ MinimalForm
 ===========
 
 Simplistic, single input view form 
+
 _Very inspired by the [Minimal Format Interface][5]._
+
 Inspired by the form seen on the end of the [PageLanes website](http://www.pagelanes.com/)
 
 # ScreenShot
