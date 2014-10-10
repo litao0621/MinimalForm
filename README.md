@@ -1,7 +1,9 @@
 MinimalForm
 ===========
 
-Simplistic, single input view form
+Simplistic, single input view form 
+_Very inspired by the [Minimal Format Interface][5]._
+Inspired by the form seen on the end of the [PageLanes website](http://www.pagelanes.com/)
 
 # ScreenShot
 
@@ -59,3 +61,4 @@ limitations under the License.
 [2]: https://github.com/sd6352051/MinimalForm/blob/master/app/src/main/res/layout/activity_main.xml#L8-L67
 [3]: https://github.com/sd6352051/MinimalForm/blob/master/app/src/main/res/drawable/progressbar_shape.xml
 [4]: https://github.com/sd6352051/MinimalForm/blob/master/releases/sample.apk?raw=true
+[5]: https://github.com/codrops/MinimalForm
