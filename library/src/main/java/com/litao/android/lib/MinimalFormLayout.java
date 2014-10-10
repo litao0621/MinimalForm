@@ -1,6 +1,6 @@
 package com.litao.android.lib;
 /*
- * Copyright 2014 gitonway
+ * Copyright 2014 litao
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,6 +20,7 @@ import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -179,6 +180,22 @@ public class MinimalFormLayout extends RelativeLayout implements TextWatcher ,An
             resetLayout(titles.get(--currentStep));
             animPrevious();
             currentnumber = currentStep * progressnumber;
+        }
+    }
+
+    public void toStep(int step){
+        step=step-1;
+        if(step<=titles.size()){
+            int jump=Math.abs(currentStep-step);
+            while (jump-->0){
+                Log.e("22","jump:"+jump+"  current:"+currentStep);
+                boolean flag=currentStep>step;
+                if (flag){
+                    previous();
+                }else {
+                    next();
+                }
+            }
         }
     }
 
