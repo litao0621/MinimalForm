@@ -188,7 +188,6 @@ public class MinimalFormLayout extends RelativeLayout implements TextWatcher ,An
         if(step<=titles.size()){
             int jump=Math.abs(currentStep-step);
             while (jump-->0){
-                Log.e("22","jump:"+jump+"  current:"+currentStep);
                 boolean flag=currentStep>step;
                 if (flag){
                     previous();
@@ -258,7 +257,9 @@ public class MinimalFormLayout extends RelativeLayout implements TextWatcher ,An
         objectAnimator.start();
 
         mEditText.setText(contents[currentStep]);
-        mEditText.setInputType(inputTypes.get(currentStep));
+        if (inputTypes != null) {
+            mEditText.setInputType(inputTypes.get(currentStep));
+        }
         mTextPage.setText((currentStep + 1) + "/" + datasize);
         mEditText.setSelection(contents[currentStep] == null ? 0 : contents[currentStep].length());
     }
