@@ -36,7 +36,7 @@ Inspired by the form seen on the end of the [PageLanes website](http://www.pagel
 and copy this into your `libs` directory.
 -   [`NineOldAndroid-2.4.0`](https://github.com/downloads/JakeWharton/NineOldAndroids/nineoldandroids-2.4.0.jar)
 
--   [`MinimalForm-1.0`](https://github.com/sd6352051/MinimalForm/blob/master/releases/minimalform-1.0.jar?raw=true)
+-   [`MinimalForm-1.1`](https://github.com/sd6352051/MinimalForm/blob/master/releases/minimalform-1.1.jar?raw=true)
 
 # License
 Copyright 2014 litao.
